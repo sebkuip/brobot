@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+bandit = "~=1.7.0"
+black = "==21.6b0"
+pylint = "~=2.9.3"
+
+[packages]
+asyncpg = "*"
+"discord.py" = {git = "https://github.com/Rapptz/discord.py"}
+python-dotenv = "*"
+
+[scripts]
+main = "python main.py"
